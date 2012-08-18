@@ -1,7 +1,7 @@
 
-var express = require('express');
-
-var app = module.exports = express.createServer();
+var express = require('express')
+  , app = module.exports = express.createServer()
+  , port = app.settings.env.PORT || 3000;
 
 app.configure(function(){
   //'custom' template engine for pure html
@@ -34,5 +34,5 @@ app.get('/', function(req, res) {
   res.render("index.html");
 });
 
-app.listen(9345);
-console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+app.listen(port);
+console.log("Express server listening on port %d in %s mode", port, app.settings.env);
