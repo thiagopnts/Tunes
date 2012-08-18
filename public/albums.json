@@ -1,0 +1,44 @@
+[{
+    "title": "Playlist 1",
+    "artist": "Various",
+    "tracks": [{
+        "title": "Doe Deer",
+        "url": "/music/doedeer.mp3"
+    },
+    {
+        "title": "Silent Hill",
+        "url": "/music/silenthill.mp3"
+    },
+    {
+        "title": "You're not here",
+        "url": "/music/yourenothere.mp3"
+    },
+    {
+        "title": "Doe Deer",
+        "url": "/music/doedeer.mp3"
+    },
+    {
+        "title": "I Want Love",
+        "url": "/music/iwantlove.mp3"
+    }]
+},
+{
+    "title": "Playlist 2",
+    "artist": "Same artists",
+    "tracks": [{
+        "title": "742617000027",
+        "url": "/music/742617000027.mp3"
+    },
+    {
+        "title": "Doe Deer",
+        "url": "/music/doedeer.mp3"
+    },
+    {
+        "title": "I Want Love",
+        "url": "/music/iwantlove.mp3"
+    },
+    {
+        "title": "You're not here",
+        "url": "/music/yourenothere.mp3"
+    }]
+}]
