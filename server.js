@@ -1,7 +1,7 @@
 
 var express = require('express')
   , app = module.exports = express.createServer()
-  , port = app.settings.env.PORT || 3000;
+  , port = process.env.PORT || 4000;
 
 app.configure(function(){
   //'custom' template engine for pure html
